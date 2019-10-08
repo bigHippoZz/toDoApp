@@ -6,7 +6,7 @@
     <h2 class="avatar_name">Hello, Hippo</h2>
     <p class="avatar_tips">
       Look Like Feed Good.
-      <bar />
+      <br />
       You have {{ todayTasks.length }} tasks to do today
     </p>
     <p class="avatar_date">TODAY ：{{ today | dateString }}</p>

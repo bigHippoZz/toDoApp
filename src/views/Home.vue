@@ -2,17 +2,25 @@
   <div class="home">
     <app-bar title="TODO" left="bars" right="search"></app-bar>
     <Avatar />
+    <Gradient />
+    <TodoList />
+    <!-- <TodoDetail /> -->
   </div>
 </template>
 
 <script>
 import AppBar from "../components/AppBar";
 import Avatar from "../components/Avatar";
-
+import Gradient from "../components/Gradient";
+import TodoList from "../components/TodoList";
+import TodoDetail from "../components/TodoDetail";
 export default {
   components: {
     AppBar,
-    Avatar
+    Avatar,
+    Gradient,
+    TodoList,
+    TodoDetail
   }
 };
 </script>
@@ -21,6 +29,5 @@ export default {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  // color: white;
 }
 </style>
