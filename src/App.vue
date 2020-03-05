@@ -7,7 +7,23 @@
     <router-view />
   </div>
 </template>
-
+<script>
+export default {
+  created() {
+    // var foo = {},
+    //   F = function() {};
+    // Object.prototype.a = "value a";
+    // Function.prototype.b = "value b";
+    // console.log(foo.a);
+    // console.log(foo.b);
+    // console.log(F.a);
+    // console.log(F.b);
+    // Object.defineProperty();
+    // Object.defineProperty()
+    // Object.defineProperty()
+  }
+};
+</script>
 <style lang="less">
 @import url("https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css");
 * {
